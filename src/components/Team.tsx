@@ -14,7 +14,7 @@ interface TeamMember {
 
 const teamMembers: TeamMember[] = [
   {
-    name: "John Doe",
+    name: "Rishi Das",
     role: "Lead Developer",
     image: "/placeholder.svg?height=400&width=400",
     bio: "Specializes in computer vision and machine learning, with expertise in baseball analytics.",
@@ -23,8 +23,8 @@ const teamMembers: TeamMember[] = [
     email: "john@example.com",
   },
   {
-    name: "Jane Smith",
-    role: "Data Scientist",
+    name: "Anshuman Panda",
+    role: "ML Developer",
     image: "/placeholder.svg?height=400&width=400",
     bio: "Expert in statistical analysis and machine learning model development.",
     github: "https://github.com",
@@ -32,8 +32,8 @@ const teamMembers: TeamMember[] = [
     email: "jane@example.com",
   },
   {
-    name: "Mike Johnson",
-    role: "Frontend Developer",
+    name: "Dinesh Jang",
+    role: "Full Stack Developer",
     image: "/placeholder.svg?height=400&width=400",
     bio: "Specializes in creating intuitive user interfaces and data visualizations.",
     github: "https://github.com",
