@@ -104,7 +104,7 @@ def process_csv(input_csv, url_column, max_videos=None, num_frames=5):
 
 input_csv = 'input_videos.csv'
 url_column = 'video'
-max_videos = 10
+max_videos = 2
 
 try:
     num_frames = int(input("Enter the number of frames to extract per video: "))
