@@ -32,7 +32,7 @@ const teamMembers: TeamMember[] = [
     email: "jane@example.com",
   },
   {
-    name: "Dinesh Jang",
+    name: "Dinesh Jangid",
     role: "Full Stack Developer",
     image: "/placeholder.svg?height=400&width=400",
     bio: "Specializes in creating intuitive user interfaces and data visualizations.",
