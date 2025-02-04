@@ -3,6 +3,7 @@ import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Play, Pause } from "lucide-react"
+import Image from "next/image"
 
 interface VideoPlayerProps {
   url: string
@@ -51,10 +52,11 @@ export default function VideoPlayer({ url, onSubmit, isVisible }: VideoPlayerPro
       </form>
       {url && (
         <div className="relative h-64 bg-gray-200 rounded-lg overflow-hidden">
-          <img
+          <Image
             src={`https://img.youtube.com/vi/${getYouTubeID(url)}/0.jpg`}
             alt="Video thumbnail"
             className="w-full h-full object-cover"
+            width={500} height={300} 
           />
           <Button className="absolute bottom-2 right-2" size="sm" onClick={togglePlay}>
             {isPlaying ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
